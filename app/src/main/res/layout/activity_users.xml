@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aae">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/home"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/colorText"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/colorText"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButtonprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorText"
+        android:background="#0033cc"
+        android:text="Profile" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButtonTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorText"
+        android:background="#0033cc"
+        android:text="Beli Pulsa" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButtonBeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorText"
+        android:background="#0033cc"
+        android:text="Transfer" />
+
+
+
+
+</LinearLayout>
